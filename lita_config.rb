@@ -3,6 +3,9 @@ Lita.configure do |config|
   config.robot.name = "Jarvis_v2"
   config.robot.mention_name = "Jarvis"
 
+  config.redis.url = ENV["REDISTOGO_URL"]
+  config.http.port = ENV["PORT"]
+
   # The locale code for the language to use.
   config.robot.locale = :en
   config.robot.log_level = :info

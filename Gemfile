@@ -1,7 +1,8 @@
 source "https://rubygems.org"
 
-gem "lita"
+ruby '2.0.0'
 
+gem "lita"
 gem "lita-slack"
 
 gem "lita-google-images"
